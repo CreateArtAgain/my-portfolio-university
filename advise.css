@@ -1,0 +1,49 @@
+
+header {
+    height:100%;
+    justify-content: center;
+    text-align: center;
+    background: url(/img/we1.jpg);width: 100%;
+    color: #fff;
+    background-size: cover;
+}
+
+.header-two {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 20%;
+}
+
+.header-two p{
+    background-color: #ffffff05;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(30px);
+    font-size: 36px;
+    padding: 6%;
+}
+
+.header-two p:hover {
+    color: #111;
+}
+
+.header-two a {
+    position: relative;
+    width: 120px;
+    height: 5rem;
+    padding: 0.5rem 4rem;
+    color: #fff;
+    background: none;
+    font-size: 28px;
+    border-radius: 10%;
+    border: 4px solid rgb(51,221,234);
+    left: 0;
+    right: 0;
+}
+
+
+.header-two a:hover {
+    color: rgb(51,221,234);
+    background: none;
+    border: 4px solid #fff;
+}

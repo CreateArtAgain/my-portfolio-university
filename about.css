@@ -1,0 +1,54 @@
+.fa-square-facebook {
+    font-size: 50px;
+    color: rgb(51,221,234);
+}
+
+.fa-line {
+    font-size: 46px;
+    color: chartreuse;
+}
+
+.fa-square-instagram {
+    font-size: 54px;
+    color: purple;
+}
+
+header {
+    height: 650px;
+    justify-content: center;
+    background: url(/img/383123130_1095636648510579_8272004188989720923_n.jpg);width: 100%;
+    text-align: center;
+    color: #fff;
+    background-size: contain;
+}
+
+.header-six {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 8%;
+}
+
+.header-six h1 {
+    background-color: #ffffff05;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(20px);
+    font-size: 32px;
+    padding: 3%;
+}
+
+.header-six i {
+    padding: 2%;
+}
+
+.header-six h1:hover {
+    color: rgb(51,221,234);
+}
+
+.header-six h2 {
+    color: #fff;
+}
+
+.header-six h2:hover {
+    color: rgb(51,221,234);
+}

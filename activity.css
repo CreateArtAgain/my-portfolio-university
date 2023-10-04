@@ -1,0 +1,55 @@
+header {
+    height: 650px;
+    justify-content: center;
+    background: url(/img/we3.jpg);width: 100%;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+}
+
+.header-three {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 25%;
+}
+
+.header-three h1 {
+    background-color: #ffffff05;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(20px);
+    font-size: 36px;
+    padding: 1%;
+}
+
+.header-three h1:hover {
+    color: rgb(51,221,234);
+}
+
+.sec {
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+}
+
+.sec-item {
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+    font-size: 24px;
+    background: #fff;
+    color: rgb(51,221,234);
+    border: 2px solid rgb(51,221,234);
+}
+
+.sec-item:hover {
+    color: #fff;
+    background: rgb(51,221,234);
+    border: 2px solid #fff;
+}
+
+.sec-item img {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px #555;
+}

@@ -1,0 +1,38 @@
+header {
+    height: 650px;
+    background: url(/img/tec1.jpg);width: 100%;
+    color: #fff;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+
+.header-four {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 10%;
+}
+
+.header-four h1 {
+    background-color: #ffffff05;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(40px);
+    padding: 2%;
+}
+
+.header-four h1:hover {
+    color: #111;
+}
+
+.header-four p {
+    background-color: #ffffff05;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(40px);
+    font-size: 24px;
+    padding: 4%;
+}
+
+.header-four p:hover {
+    color: #111;
+}

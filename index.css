@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 105px;
+    line-height: 105px;
+    background-color: black;
+    padding: 0 10%;
+}
+
+nav .nav-logo {
+    width: 320px;
+    height: 100px;
+    align-items: center;
+}
+
+nav .nav-list {
+    display: flex;
+}
+
+nav .nav-list .nav-item {
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    transition: all.4s ease;
+}
+
+nav .nav-list .nav-item:hover {
+    background: rgb(54, 221, 243);
+}
+
+nav .nav-list .nav-link {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+@media(max-width: 935px){
+    nav {
+        padding: 0 2rem;
+    }
+    nav .nav-list .nav-item {
+        display: grid;
+        background: #111;
+        left: 0;
+        right: 0;
+        transition: .3s;
+    }
+}
+
+nav .nav-list .nav-item {
+    padding-left: 55px;
+}
+
+nav .navbar-toggler {
+    cursor: pointer;
+    margin: 18px -10px 0 0;
+    height: min-content;
+    display: grid;
+}
+
+nav .navbar-toggler .bar {
+    width: 120px;
+    height: 2rem;
+    margin: 10px;
+    background: #fff;
+    border-radius: 10%;
+    transition: .2s;
+}
+
+input {
+    display: none;
+}
+
+input:checked ~ nav .nav-list {
+    transform: translate(0);
+}
+
+input:checked ~ nav .navbar-toggler {
+    margin: 55px;
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(1) {
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
+    display: none;
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
+    transform: rotate(45deg);
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;width: 100%;
+    justify-content: center;
+    background: #111;
+    color: #fff;
+    padding: 1rem;
+}

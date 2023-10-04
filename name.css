@@ -1,0 +1,27 @@
+header {
+    height: 650px;
+    text-align: center;
+    justify-content: center;
+    background: url(/img/me3.png);width: 100%;
+    background-size: contain;
+}
+
+.header-five {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 8%;
+}
+
+.header-five p {
+    background-color: #ffffff05;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(30px);
+    font-size: 28px;
+    color: #fff;
+    padding: 12%;
+}
+
+.header-five p:hover {
+    color: #111;
+}
